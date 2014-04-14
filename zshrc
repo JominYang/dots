@@ -12,6 +12,9 @@ ZSH_THEME="robbyrussell"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias c="clear"
+alias q="exit"
+alias vi="vim"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -69,5 +72,6 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+export GRADLE_HOME=/opt/gradle
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
