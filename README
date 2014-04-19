@@ -1,0 +1,7 @@
+##my dot file
+
+###update submodule
+	
+	git pull
+	git submodule foreach git checkout master
+	git submodule foreach git pull
