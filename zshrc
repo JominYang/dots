@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh configuration.
-DOTS=/home/jomin/repos/dots
+DOTS=~/repos/dots
 ZSH=$DOTS/oh-my-zsh
 
 
