@@ -1,0 +1,21 @@
+[user]
+	name = Jomin Yang
+	email = i@jomin.me
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[color]
+	ui = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit -a -v
+	st = status
+	unstage = reset HEAD --
+	throw = reset --hard HEAD
+	throwh = reset --hard HEAD^
+	last = log -l HEAD
+	vi = !vim
+[push]
+	default = current

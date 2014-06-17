@@ -75,3 +75,5 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export GRADLE_HOME=/opt/gradle
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
